@@ -1,0 +1,16 @@
+Entity,Entity Type,Relationship,Related Entity,Notes
+Applicant,Person,PRACTISES,Traditional Trade,Trade must be covered by the current scheme guidelines
+Applicant,Person,APPLIES_FOR,PM Vishwakarma Scheme,Application is subject to verification and approval
+Applicant,Person,BELONGS_TO,Family,Family rules may limit benefits to one member
+Applicant,Person,SUBMITS_THROUGH,Common Service Centre,Use an authorised channel listed by the official scheme
+Application,Record,VERIFIED_BY,Local Authority,Stage and authority depend on official procedure
+Application,Record,REVIEWED_BY,District Implementation Committee,Confirm current verification workflow
+Application,Record,APPROVED_BY,State-level Screening Committee,Confirm current approval workflow
+Applicant,Person,COMPLETES,Skill Assessment,Required where applicable to benefits
+Applicant,Person,ATTENDS,Basic Training,Training duration and requirements must be verified
+Applicant,Person,MAY_RECEIVE,Toolkit Incentive,Subject to scheme conditions
+Applicant,Person,MAY_APPLY_FOR,First Loan Tranche,Subject to training and credit conditions
+Applicant,Person,MAY_APPLY_FOR,Second Loan Tranche,Subject to repayment and additional qualifying conditions
+Applicant,Person,MAY_RECEIVE,Digital Transaction Incentive,Eligible transactions and limits apply
+Applicant,Person,MAY_ACCESS,Marketing Support,Subject to applicable criteria and availability
+PM Vishwakarma Scheme,Government Scheme,SUPPORTS,Traditional Artisans,Target group described by the official scheme
